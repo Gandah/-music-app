@@ -44,7 +44,7 @@
 
 ### Links
 
-- Solution URL: [Repo](https://github.com/Gandah/spotify-clone-music-app.git)
+- GitHub Repo: [View Repo](https://github.com/Gandah/spotify-clone-music-app.git)
 - Live Site URL: [Visit Site](https://spotify-clone-music-app-git-main-gandah.vercel.app)
 
 ### Built with
