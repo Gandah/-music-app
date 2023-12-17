@@ -19,12 +19,12 @@
 
 ### App Features
 
-- __Music Player__ - Users can play any song with in-built music player including basic controls such as the previous song, the next song, and pause/play buttons and details like the song’s name, artist, volume, repeat, shuffle and duration controls.
-- __Discover Page__ - Users can  choose a genere and get the tops songs for that genre
+- __Music Player__ - Users can play any song with in-built music player including basic controls such as the previous song, the next song, pause/play buttons, volume, repeat, shuffle and duration controls. View details like the song’s name, artist
+- __Discover Page__ - Users can  choose a genre and get the top songs for that genre
 - __Around you page__ - Users are able to get top local songs based on their geolocation information.
 - __Artists Page__ - Users can view a list of the top artists for a genre
 - __Artist Details Page__ - Users can view additional info that is, artist other rleases, related tracks and more!
-- __Song Details Page__ -  Users can view the lyrics of song and a list of similar songs, artist, genre and other related info.
+- __Song Details Page__ -  Users can view the lyrics of song and a list of similar songs, artists, genres and other related info.
 - __Search Functionality__ - Users can search artists or songs , and get  results based on their queries.
 
 ### Screenshots

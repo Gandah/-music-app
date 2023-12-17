@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { Error, Loader, SongCard } from '../components';
+import { Error, SongCard, SkeletonLoader } from '../components';
 import { genres } from '../assets/constants';
 import { useGetTopChartsQuery } from '../redux/services/shazamCore';
 import { selectGenreListId } from '../redux/features/playerSlice';
@@ -14,7 +14,7 @@ const Discover = () => {
 
   const genreTitle = genres.find(({ value }) => value === genreListId)?.title;
 
-  if (isFetching) return <Loader title="Fetching songs..." />;
+  if (isFetching) return <SkeletonLoader />;
 
   if (error) return <Error />;
 

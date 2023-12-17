@@ -1,4 +1,4 @@
-import { Error, Loader, ArtistCard } from '../components';
+import { Error, ArtistCard, SkeletonLoader } from '../components';
 import { useGetTopChartsQuery } from '../redux/services/shazamCore';
 
 const TopArtists = () => {
@@ -7,7 +7,7 @@ const TopArtists = () => {
     limit: '25',
   });
 
-  if (isFetching) return <Loader title="Fetching artist data" />;
+  if (isFetching) return <SkeletonLoader />;
 
   if (error) return <Error />;
 
